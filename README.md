@@ -140,6 +140,7 @@ Metabase Dashboard
 ```
 
 # Code Explanation
+There are 5 main codes in this projects which are all of the five .py files. Each of them handle each of the process of from the first data loading to the database connection.
 ## data_preparation.py
 This script is responsible for the initial data preparation stage of the analytics pipeline. It loads multiple raw CSV datasets related to marketplace transactions, such as orders, reviews, products, customers, sellers, and product category translations using Apache Spark. After loading the data, the script performs several preprocessing operations including column selection, null filtering, duplicate removal, timestamp conversion, sentiment labeling, and delivery performance calculation. For example, customer reviews are classified into positive, neutral, or negative sentiment categories based on their review score, while delivery status is derived from the difference between estimated and actual delivery dates. <br>
 
