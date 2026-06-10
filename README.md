@@ -172,9 +172,10 @@ The pipeline is configured to run automatically on a daily schedule and uses Bas
 
 
 
-#ClickHouse
+# ClickHouse Result
+<img width="913" height="874" alt="image" src="https://github.com/user-attachments/assets/b26cc5bb-5b61-494b-878e-181806932736" />
 
 
-#Metabase Dashboard
+# Metabase Dashboard
 
 
