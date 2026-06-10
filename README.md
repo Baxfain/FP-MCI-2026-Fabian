@@ -165,7 +165,8 @@ This script defines the orchestration workflow using Apache Airflow. It organize
 
 The pipeline is configured to run automatically on a daily schedule and uses BashOperators to execute each Python script inside the Airflow container environment. Task dependencies ensure that every stage only runs after the previous stage completes successfully. This orchestration script is essential for automating the end-to-end ETL and analytics workflow, transforming raw marketplace data into structured business intelligence dashboards.
 
-#DAG Result
+# DAG Result
+<img width="1892" height="899" alt="image" src="https://github.com/user-attachments/assets/ede39d97-766a-4199-abf9-e47b355a2095" />
 
 
 #ClickHouse
