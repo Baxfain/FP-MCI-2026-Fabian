@@ -170,12 +170,58 @@ The pipeline is configured to run automatically on a daily schedule and uses Bas
 <img width="1892" height="899" alt="image" src="https://github.com/user-attachments/assets/ede39d97-766a-4199-abf9-e47b355a2095" /> <br>
 <img width="1078" height="222" alt="image" src="https://github.com/user-attachments/assets/1164a078-e124-42fd-8ed6-5ce77cdf766a" />
 
-
-
 # ClickHouse Result
 <img width="913" height="874" alt="image" src="https://github.com/user-attachments/assets/b26cc5bb-5b61-494b-878e-181806932736" />
 
+# Table Result
+Tf-IDF table (limit 10 rows only) <br>
+<img width="661" height="623" alt="image" src="https://github.com/user-attachments/assets/19a5842b-fcb8-446b-bf91-afc058cc0939" /> <br>
+Cleaned Master table (limit 10 rows only) <br>
+<img width="1311" height="637" alt="image" src="https://github.com/user-attachments/assets/1327c804-85b9-4ee7-b0e2-7c948923228a" />
 
 # Metabase Dashboard
+<img width="1688" height="2644" alt="Metabase - Dashboard Analysis_page-0001" src="https://github.com/user-attachments/assets/22d32ca8-0245-40d7-8357-1a7f6fca595b" />
+
+# Future Development & Expansion Plan
+This project has successfully demonstrated how a modern data engineering pipeline can transform raw marketplace data into actionable business insights using Apache Airflow, PySpark, ClickHouse, and Metabase. However, the current analytics results also reveal several opportunities for future improvements and deeper analysis. <br>
+
+## 1. Advanced Delivery Performance Analytics
+The dashboard indicates that delivery delays and cross-state shipping have a measurable impact on customer satisfaction and review scores. Future development can focus on building a predictive delivery analysis system capable of identifying late-delivery risks before they occur.<br>
+Potential enhancements include:
+1. Seller delivery reliability scoring
+2. Regional logistics performance analysis
+3. Shipping route efficiency monitoring
+4. Delay prediction using machine learning models
+5. Real-time operational alerting for problematic deliveries <br> <br>
+
+By implementing predictive logistics analytics, the system could help marketplaces proactively reduce customer dissatisfaction and operational inefficiencies.
+
+## 2. Seller & Product Intelligence System
+Several product categories consistently show lower review scores and higher delivery issues. Future analysis can evolve into a seller intelligence and product monitoring platform. <br>
+Possible features:
+1. Seller ranking & reliability dashboards
+2. Product quality anomaly detection
+3. Fraud or suspicious seller behavior detection
+4. Dynamic category risk scoring
+5. Automated underperforming product identification <br>
+This could help marketplace operators quickly identify problematic sellers or product categories before they significantly affect customer trust.
+
+## 3.Customer Behavior & Recommendation Analytics
+The project can also expand toward customer-centric analytics and personalization systems. <br>
+Future analytical features:
+1. Customer segmentation
+2. Purchase behavior analysis
+3. Repeat purchase prediction
+4. Recommendation systems
+5. Personalized marketing insights
+These additions could significantly improve user engagement and long-term customer retention strategies.
+
+# Conclusion
+This project demonstrates a complete end-to-end data engineering and analytics pipeline that transforms raw marketplace data into an analyzed enterprise-ready database using Apache Spark, Apache Airflow, ClickHouse, and Metabase. Using these technologies, the original DustiniaDelixia Groceria Dataset is processed into two main analytical tables: a master table containing the essential marketplace information and a TF-IDF table that provides deeper exploration of customer review patterns and negative keyword analysis. <br>
+
+From the analytical results and dashboard visualizations, it can be observed that the marketplace performance is influenced by multiple factors such as delivery performance, seller reliability, customer location, product category, and shipping conditions. These variables create complex relationships that make customer experience analysis challenging. However, through proper data processing, feature engineering, and analytical exploration, the system is capable of identifying important operational and customer-related patterns. <br>
+
+The generated insights can help businesses better understand the main causes of customer dissatisfaction, improve delivery quality, monitor seller performance, and enhance overall service reliability. In the future, the platform can be further expanded into a smarter decision-support system with predictive analytics, automated monitoring, recommendation systems, and advanced quality assurance mechanisms to continuously improve customer satisfaction and marketplace performance.
+
 
 
